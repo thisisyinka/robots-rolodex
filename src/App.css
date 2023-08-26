@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.search-box {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #900c3f;
+  outline: none;
+  padding: 10px;
+  width: 250px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-size: 3rem;
+}
+
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #900c3f;
+  border: 2px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.rLetter {
+  color: #900c3f;
+  text-decoration: underline;
+}
